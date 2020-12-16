@@ -6,11 +6,11 @@ onready var Square = $Audio/Square
 onready var Tri = $Audio/Triangle
 onready var Gen = $Audio/Generic
 onready var FD = $Popups/FileDialog
-onready var setChan1 = $ColorRect/MarginContainer/ColorRect/MarginContainer2/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel1/VBoxContainer/SetChannel1
-onready var setChan2 = $ColorRect/MarginContainer/ColorRect/MarginContainer2/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel2/VBoxContainer/SetChannel2
-onready var setChan3 = $ColorRect/MarginContainer/ColorRect/MarginContainer2/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel3/VBoxContainer/SetChannel3
-onready var setChan4 = $ColorRect/MarginContainer/ColorRect/MarginContainer2/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel4/VBoxContainer/SetChannel4
 
+onready var setChan1 = $MarginContainer/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel1/VBoxContainer/SetChannel
+onready var setChan2 = $MarginContainer/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel2/VBoxContainer/SetChannel
+onready var setChan3 = $MarginContainer/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel3/VBoxContainer/SetChannel
+onready var setChan4 = $MarginContainer/VBoxContainer/ChannelInfo/MarginContainer3/HBoxContainer/Channel4/VBoxContainer/SetChannel
 
 var sample_hz = 22050.0
 var pulse_hz = 440.0
